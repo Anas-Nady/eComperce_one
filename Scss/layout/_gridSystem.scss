@@ -1,0 +1,58 @@
+
+
+
+.header{
+    background: linear-gradient($colorWhite,$colormain);
+    height: 100vh;
+    .row{
+    margin-top: 70px;
+    }
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.rating{
+    color: $colorstar;
+}
+
+input:focus{
+    outline: none;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media(min-width: 768px){
+        width: 750px;
+    }
+    
+    @media(min-width: 992){
+        width: 970px;
+    }
+    
+    
+    @media(min-width: 768px){
+        width: 750px;
+    }
+    
+    
+    @media(min-width: 1200px){
+        width: 1170px;
+    }
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

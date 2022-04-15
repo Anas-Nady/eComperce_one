@@ -1,0 +1,12 @@
+.btn-home{
+    display: inline-block;
+    background-color: $colormain;
+    color: $colorWhite;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    transition: $transition;
+    &:hover{
+        background-color: $colorHover;
+    }
+}

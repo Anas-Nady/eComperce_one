@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="Scss/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Indie+Flower&family=Inter:wght@100;200;300;600&family=Open+Sans:wght@300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400&display=swap">
+    <!-- <link rel="stylesheet" href="css/homepage_rtl.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="imgs/logo.png" alt="logo" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="menuItem">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="progucts.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="imgs/cart.png" alt="back" width="30px" height="30px" >
+            <img src="imgs/menu.png" alt="menu" class="menu-icon" onclick="menuToggle()">
+        </div>
+    </div>
+
+
+    <!-- Start featured Products  -->
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select name="" id="">
+                <option>Default Shorting</option>
+                <option>Short by Price</option>
+                <option>Short by popularity</option>
+                <option>Short by rating</option>
+                <option>Short by sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4 card-product">
+                <a href="product-details.html"><img src="imgs/product-1.jpg" alt="product"></a>
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+            <div class="col-4 card-product">
+                <img src="imgs/product-2.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+            <div class="col-4 card-product">
+                <img src="imgs/product-3.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+            <div class="col-4 card-product">
+                <img src="imgs/product-4.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 card-product">
+                <img src="imgs/product-5.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+            <div class="col-4 card-product">
+                <img src="imgs/product-6.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+            <div class="col-4 card-product">
+                <img src="imgs/product-7.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+            <div class="col-4 card-product">
+                <img src="imgs/product-8.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 card-product">
+                <img src="imgs/product-9.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+            <div class="col-4 card-product">
+                <img src="imgs/product-10.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+            <div class="col-4 card-product">
+                <img src="imgs/product-11.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+            <div class="col-4 card-product">
+                <img src="imgs/product-12.jpg" alt="product">
+                <h4>Red Printend T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.0</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+    <!-- end featured Products  -->
+
+<!-- Start Footer -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App For Android And IOS Mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="imgs/play-store.png" alt="">
+                    <img src="imgs/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="imgs/logo-white.png" alt="logo footer">
+                <p>Our Purpose Is To Sustainably Make The Pleasure and Benefits of sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copy-right">Copyright 2022 - Anas Abdallah NadY</p>
+    </div>
+</footer>
+
+<!-- end Footer -->
+
+<script src="js/jquery-3.6.0.min con.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/main.js"></script>
+</body>
+</html>
